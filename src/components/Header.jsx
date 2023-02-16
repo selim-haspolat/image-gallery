@@ -54,14 +54,16 @@ const Header = ({ timeline }) => {
     if (window.scrollY > 55) {
       header.classList.add("!bg-slate-900/[0.95]");
       header.classList.add("text-white");
+      header.classList.add("py-12");
     } else {
       header.classList.remove("!bg-slate-900/[0.95]");
       header.classList.remove("text-white");
+      header.classList.remove("py-12");
     }
   });
 
   return (
-    <div className="flex justify-around items-center bg-slate-100 h-20 header fixed w-screen top-0 transition-colors duration-300 z-10">
+    <div className="flex justify-around items-center bg-slate-100 h-20 header fixed w-screen top-0 transition-all duration-300 z-10">
       <h1
         ref={(el) => (header = el)}
         className="text-4xl sm:text-5xl select-none pb-2 mt-2"
