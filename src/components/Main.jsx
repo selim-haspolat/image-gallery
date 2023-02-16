@@ -42,7 +42,7 @@ const Main = ({ timeline }) => {
       <div
         ref={(el) => (main = el)}
         id="images"
-        className="mt-20 mb-10 p-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-10"
+        className="mt-20 mb-10 pt-10 mx-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-10"
       >
         {data.map(({ photographer, src }, index) => (
           <Card key={index} src={src} />
