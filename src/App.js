@@ -8,7 +8,7 @@ function App() {
   let timeline = gsap.timeline()
   
   return (
-    <div className="bg-slate-100">
+    <div className="bg-slate-100 ">
       <Header timeline={timeline}/>
       <Main timeline={timeline}/>
       <Footer/>

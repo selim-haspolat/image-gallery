@@ -15,7 +15,7 @@ const Main = ({ timeline }) => {
         duration: .3,
         'clip-path': 'polygon(80% 0%, 0% 0%, 0% 100%, 80% 100%)',
       }).to(container,{
-        'clip-path': 'polygon(80% 0%, 41% 0%, 41% 100%, 80% 100%)',
+        'clip-path': 'polygon(95% 0%, 85% 0%, 85% 100%, 95% 100%)',
         ease: 'expo'
       }).to(container,{
         duration: .5,
@@ -24,7 +24,7 @@ const Main = ({ timeline }) => {
       }).fromTo(
         main,
         {
-          "clip-path": "polygon(50% 0%, 50% 0%, 50% 100%, 50% 100%)",
+          "clip-path": "polygon(85% 0%, 85% 0%, 85% 100%, 85% 100%)",
         },
         {
           duration: 1,

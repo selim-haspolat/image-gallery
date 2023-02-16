@@ -64,7 +64,7 @@ const Header = ({ timeline }) => {
     <div className="flex justify-around items-center bg-slate-100 h-20 header fixed w-screen top-0 transition-colors duration-300 z-10">
       <h1
         ref={(el) => (header = el)}
-        className="text-4xl sm:text-5xl select-none"
+        className="text-4xl sm:text-5xl select-none pb-2 mt-2"
       >
         Gallery
       </h1>
