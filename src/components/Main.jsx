@@ -15,19 +15,19 @@ const Main = ({ timeline }) => {
         duration: .3,
         'clip-path': 'polygon(80% 0%, 0% 0%, 0% 100%, 80% 100%)',
       }).to(container,{
-        'clip-path': 'polygon(95% 0%, 85% 0%, 85% 100%, 95% 100%)',
+        'clip-path': 'polygon(95% 0%, 95% 0%, 95% 100%, 95% 100%)',
         ease: 'expo'
       }).to(container,{
-        duration: .5,
-        'backgroundColor': 'rgba(0,0,0,0,)',
+        duration: .0001,
+        'backgroundColor': 'rgba(0,0,0,0)',
         'clip-path': 'polygon(100% 0%, 0% 0%, 0% 100%, 100% 100%)',
       }).fromTo(
         main,
         {
-          "clip-path": "polygon(85% 0%, 85% 0%, 85% 100%, 85% 100%)",
+          "clip-path": "polygon(95% 0%, 95% 0%, 95% 100%, 95% 100%)",
         },
         {
-          duration: 1,
+          duration: 0.5,
           ease: "power4.out",
           "clip-path": "polygon(100% 0%, 0% 0%, 0% 100%, 100% 100%)",
         }, 2.3
