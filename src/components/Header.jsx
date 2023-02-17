@@ -50,7 +50,6 @@ const Header = ({ timeline }) => {
 
   window.addEventListener("scroll", (e) => {
     const header = document.querySelector(".header");
-    console.log(window.scrollY);
     if (window.scrollY > 55) {
       header.classList.add("!bg-slate-900/[0.95]");
       header.classList.add("text-white");
